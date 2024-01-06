@@ -1,6 +1,7 @@
----
+plugins:
+  - solargraph-rails
 include:
-  - "app/**/*.rb"
+  - 'app/**/*.rb'
 exclude:
   - spec/**/*
   - test/**/*
@@ -18,7 +19,4 @@ formatter:
     only: []
     extra_args: []
     require_paths: []
-    require_paths: []
-plugins:
-  - solargraph-rails
 max_files: 5000

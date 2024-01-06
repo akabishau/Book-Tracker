@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+gem "bundler", "~> 2.5.3"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
@@ -71,6 +72,7 @@ group :test do
 end
 
 gem "dotenv-rails", groups: [:development, :test]
+gem "httparty"
 gem "rubocop", groups: [:development, :test]
 gem "rubocop-rails", groups: [:development, :test]
 gem "solargraph", groups: [:development, :test]
